@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 function AboutMe() {
     return (
         <>
+            <h1 className='about-title'>About Me</h1>
             <Container  className="main-container">
                 <div className="headshot">
                     <img src={headshot} className="headshot-img"></img>

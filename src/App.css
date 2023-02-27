@@ -16,20 +16,22 @@ a{
 }
 
 .about-wrapper{
-  margin-bottom: 75px;
+  margin-bottom: 58px;
+  padding-top: 7vh;
 }
 
 .portfolio-wrapper{
   margin-bottom: 20px;
-  margin-top: 12vh;
+  margin-top: 7vh;
 }
 
-.contact-wrapper {
+.contact-wrapper, .resume-wrapper {
+  padding-top: 7vh;
   height: 77vh;
 }
 
-.resume-wrapper {
-  height: 77vh;
+.about-title{
+  margin-bottom: 17px;
 }
 
 
@@ -60,7 +62,6 @@ h1 {
 .main-container{
   display: flex;
   justify-content: center;
-  padding-top: 12vh;
 }
 
 .portfolio-container>h1{
@@ -339,6 +340,10 @@ h1 {
 
   .header-link.active::before{
     content : "> ";
+  }
+
+  .contact-wrapper, .resume-wrapper{
+    height: 70vh;
   }
 }
 
