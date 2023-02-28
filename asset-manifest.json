@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/gy-react-portfolio/static/css/main.4bc765ba.chunk.css",
-    "main.js": "/gy-react-portfolio/static/js/main.cfd99f7f.chunk.js",
-    "main.js.map": "/gy-react-portfolio/static/js/main.cfd99f7f.chunk.js.map",
+    "main.css": "/gy-react-portfolio/static/css/main.98199617.chunk.css",
+    "main.js": "/gy-react-portfolio/static/js/main.c852b793.chunk.js",
+    "main.js.map": "/gy-react-portfolio/static/js/main.c852b793.chunk.js.map",
     "runtime-main.js": "/gy-react-portfolio/static/js/runtime-main.e9d43cb1.js",
     "runtime-main.js.map": "/gy-react-portfolio/static/js/runtime-main.e9d43cb1.js.map",
     "static/css/2.f26e749f.chunk.css": "/gy-react-portfolio/static/css/2.f26e749f.chunk.css",
@@ -10,13 +10,13 @@
     "static/js/2.8bef13f6.chunk.js.map": "/gy-react-portfolio/static/js/2.8bef13f6.chunk.js.map",
     "index.html": "/gy-react-portfolio/index.html",
     "static/css/2.f26e749f.chunk.css.map": "/gy-react-portfolio/static/css/2.f26e749f.chunk.css.map",
-    "static/css/main.4bc765ba.chunk.css.map": "/gy-react-portfolio/static/css/main.4bc765ba.chunk.css.map",
+    "static/css/main.98199617.chunk.css.map": "/gy-react-portfolio/static/css/main.98199617.chunk.css.map",
     "static/js/2.8bef13f6.chunk.js.LICENSE.txt": "/gy-react-portfolio/static/js/2.8bef13f6.chunk.js.LICENSE.txt",
     "static/media/code-quiz-sm.714f7025.png": "/gy-react-portfolio/static/media/code-quiz-sm.714f7025.png",
     "static/media/dbug-sm.e34b6485.png": "/gy-react-portfolio/static/media/dbug-sm.e34b6485.png",
     "static/media/fantasy-bball-sm.dd8d2cb8.png": "/gy-react-portfolio/static/media/fantasy-bball-sm.dd8d2cb8.png",
     "static/media/flex-fly-sm.17df4bc5.png": "/gy-react-portfolio/static/media/flex-fly-sm.17df4bc5.png",
-    "static/media/gil-young-resume.04b0ad0c.pdf": "/gy-react-portfolio/static/media/gil-young-resume.04b0ad0c.pdf",
+    "static/media/gil-young-resume.ef1600d9.pdf": "/gy-react-portfolio/static/media/gil-young-resume.ef1600d9.pdf",
     "static/media/github.0f2c24f0.png": "/gy-react-portfolio/static/media/github.0f2c24f0.png",
     "static/media/gy-headshot-sm.57a72b12.png": "/gy-react-portfolio/static/media/gy-headshot-sm.57a72b12.png",
     "static/media/instagram.c1dc3376.png": "/gy-react-portfolio/static/media/instagram.c1dc3376.png",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.e9d43cb1.js",
     "static/css/2.f26e749f.chunk.css",
     "static/js/2.8bef13f6.chunk.js",
-    "static/css/main.4bc765ba.chunk.css",
-    "static/js/main.cfd99f7f.chunk.js"
+    "static/css/main.98199617.chunk.css",
+    "static/js/main.c852b793.chunk.js"
   ]
 }
