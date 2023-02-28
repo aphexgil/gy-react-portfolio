@@ -17,7 +17,7 @@ function AboutMe() {
                 comfortable building and styling front-end React components as I am debugging RESTful
                 routes and designing database structures. Collabaration is at the core of everything I do,
                 and I think it is essential that technical information is communicated clearly, concisely
-                and with kindness. 
+                and with kindness. Finally, I am a relentless problem-solver and a natural autodidact––finding novel solutions is my happy place.
                 </div>
             </Container>
         </>
