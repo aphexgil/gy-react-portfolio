@@ -1,4 +1,4 @@
-import headshot from '../assets/gy-headshot-sm.png';
+import headshot from '../assets/gy-headshot-xs.png';
 import '../App.css';
 import Container from 'react-bootstrap/Container';
 

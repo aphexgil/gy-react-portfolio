@@ -2,12 +2,12 @@ import '../App.css';
 
 import Image from 'react-bootstrap/Image';
 
-import dbug from '../assets/dbug-sm.png';
-import fantasybball from '../assets/fantasy-bball-sm.png';
-import flexfly from '../assets/flex-fly-sm.png';
-import techblog from '../assets/tech-blog-sm.png';
-import codequiz from '../assets/code-quiz-sm.png';
-import weatherdash from '../assets/weather-dash-sm.png';
+import dbug from '../assets/dbug-xs.png';
+import fantasybball from '../assets/fantasy-bball-xs.png';
+import flexfly from '../assets/flex-fly-xs.png';
+import techblog from '../assets/tech-blog-xs.png';
+import codequiz from '../assets/code-quiz-xs.png';
+import weatherdash from '../assets/weather-dash-xs.png';
 import github from '../assets/github.png';
 
 
