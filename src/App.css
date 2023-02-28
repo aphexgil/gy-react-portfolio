@@ -76,13 +76,13 @@ h1 {
 }
 
 .headshot-img{
-  width: 420px;
+  width: 430px;
 }
 
 .bio{
   font-size: 15px;
   width: 470px !important;
-  margin: 10px 30px;
+  margin:  0px 30px;
   padding: 20px;
   cursor: default;
   border-style: solid;
