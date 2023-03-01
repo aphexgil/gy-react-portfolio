@@ -11,12 +11,12 @@ function Contact() {
                         <div>
                             <span class="material-symbols-outlined icon">
                                 call
-                            </span>: +1-310-401-4147 
+                            </span>: <a href='tel:+1310-401-4147' className='phone-link'>+1-310-401-4147</a>
                         </div>
                         <div>
                             <span class="material-symbols-outlined icon">
                                 mail
-                            </span>: gil.young.1994@gmail.com
+                            </span>: <a href='mailto:gil.young.1994@gmail.com' className='email-link'>gil.young.1994@gmail.com</a>
                         </div>
                 </div>
             </Container>
