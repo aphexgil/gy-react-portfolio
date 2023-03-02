@@ -9,14 +9,14 @@ function Contact() {
                 <h1>Contact Me</h1>
                 <div className="contact-card">
                         <div>
-                            <span class="material-symbols-outlined icon">
+                        <a href='tel:+1310-401-4147' className='phone-icon'><span class="material-symbols-outlined icon">
                                 call
-                            </span>: <a href='tel:+1310-401-4147' className='phone-link'>+1-310-401-4147</a>
+                        </span></a>: <a href='tel:+1310-401-4147' className='phone-link'>+1-310-401-4147</a>
                         </div>
                         <div>
-                            <span class="material-symbols-outlined icon">
+                        <a href='mailto:gil.young.1994@gmail.com' className='email-icon'><span class="material-symbols-outlined icon">
                                 mail
-                            </span>: <a href='mailto:gil.young.1994@gmail.com' className='email-link'>gil.young.1994@gmail.com</a>
+                        </span></a>: <a href='mailto:gil.young.1994@gmail.com' className='email-link'>gil.young.1994@gmail.com</a>
                         </div>
                 </div>
             </Container>

@@ -63,7 +63,7 @@ function Portfolio() {
                             <Image src={project.image} className="project-image"></Image>
                             <div className="overlay">
                                 <div className="overlay-text">
-                                    <a href={project.link} target="_blank">{project.title}</a>
+                                    <a href={project.link} target="_blank" className="project-title">{project.title}</a>
                                     <br></br>
                                     <a href={project.link} target="_blank"><span className="material-symbols-rounded link-icon"> output </span></a>
                                     <a href={project.repo} target="_blank"><img src={github} className="github-icon"></img></a>
