@@ -21,12 +21,12 @@ function Portfolio() {
             image: dbug,
             repo: 'https://github.com/saramangelo/cswag-p3'
         },
-        {
-            title: 'Fantasy Basketball',
-            link: 'https://evening-tundra-41770.herokuapp.com/',
-            image: fantasybball,
-            repo: 'https://github.com/wvoigt722/uclaFantasyLeague'
-        },
+        // {
+        //     title: 'Fantasy Basketball',
+        //     link: 'https://evening-tundra-41770.herokuapp.com/',
+        //     image: fantasybball,
+        //     repo: 'https://github.com/wvoigt722/uclaFantasyLeague'
+        // },
         {
             title: 'FlexFly',
             link: 'https://yacovkopel.github.io/FlexFly/',
