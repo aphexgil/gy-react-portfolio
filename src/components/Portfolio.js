@@ -17,7 +17,7 @@ function Portfolio() {
     const data = [
         {
             title: 'DBUG',
-            link: 'https://pacific-tundra-20033.herokuapp.com/',
+            link: 'https://cswag-dbug.herokuapp.com/',
             image: dbug,
             repo: 'https://github.com/saramangelo/cswag-p3'
         },
