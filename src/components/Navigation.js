@@ -19,7 +19,7 @@ function Navigation(props) {
   return (
 
       <Container fluid className="navigation">
-        <Navbar collapseOnSelect defaultActiveKey={"About"} expand="lg" onSelect={handleNavbarSelect} variant="dark" className="nav" activeKey={props.currentPage}>
+        <Navbar collapseOnSelect defaultActiveKey={"About"} expand="sm" onSelect={handleNavbarSelect} variant="dark" className="nav" activeKey={props.currentPage}>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
