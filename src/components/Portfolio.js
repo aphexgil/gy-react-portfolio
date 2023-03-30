@@ -1,6 +1,7 @@
 import '../App.css';
 
 import Image from 'react-bootstrap/Image';
+import React, {useState} from 'react';
 
 import dbug from '../assets/dbug-xs.png';
 import fantasybball from '../assets/fantasy-bball-xs.png';
@@ -12,7 +13,7 @@ import github from '../assets/github.png';
 
 
 
-function Portfolio() {
+function Portfolio({portfolioSeen, setPortfolioSeen}) {
 
     const data = [
         {
@@ -51,16 +52,20 @@ function Portfolio() {
             image: weatherdash,
             repo: 'https://github.com/aphexgil/weather-forecast'
         }
-    ]
+    ];
+
+
+
+    const [loaded, setLoaded] = useState(false);
 
     return (
         <>
             <div className="portfolio-container">
-                <h1>My Projects</h1>
+                <h1 className={portfolioSeen ? '' : 'slide-in-from-top'} onAnimationEnd={()=>setPortfolioSeen(true)}>My Projects</h1>
                 <div className="projects-container">
                     {data && data.map((project, i) => (
                         <div id={i} className="project-card" >
-                            <Image src={project.image} className="project-image"></Image>
+                            <Image src={project.image} className="project-image slide-in-from-top"  style={loaded ? {} : { display: 'none' }} onLoad={() => setLoaded(true)}></Image>
                             <div className="overlay">
                                 <div className="overlay-text">
                                     <a href={project.link} target="_blank" className="project-title">{project.title}</a>

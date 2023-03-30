@@ -2,12 +2,12 @@ import '../App.css';
 import Container from 'react-bootstrap/Container';
 
 
-function Contact() {
+function Contact({contactSeen, setContactSeen}) {
     return (
         <>
             <Container  className="main-container contact">
-                <h1>Contact Me</h1>
-                <div className="contact-card">
+                <h1 className={contactSeen ? '' : 'slide-in-from-top'} onAnimationEnd={()=>setContactSeen(true)}>Contact Me</h1>
+                <div className="contact-card slide-in-from-left">
                         <div>
                         <a href='tel:+1310-401-4147' className='phone-icon'><span class="material-symbols-outlined icon">
                                 call

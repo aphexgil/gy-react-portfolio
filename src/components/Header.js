@@ -6,7 +6,7 @@ function Header(props) {
   return (
     <div className="header">
       <Navigation setPage={props.setPage} currentPage={props.currentPage}/>
-      <h1 className="title">Gil Young</h1>
+      <h2 className="title">G<span className='hide-letters'>il </span>Y<span className='hide-letters'>oung</span></h2>
     </div>
   );
   
