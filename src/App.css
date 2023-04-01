@@ -354,7 +354,7 @@ h2 {
   transition : transform 0.15s linear;
 }
 
-.phone-link, .email-link, .phone-icon, .email-icon, .project-title{
+.phone-link, .email-link, .phone-icon-link, .email-icon-link, .project-title{
   width: auto;
   transition: .15s ease !important;
   display: inline-block;
@@ -364,7 +364,11 @@ h2 {
   transform: scale(1.05);
 }
 
-.phone-icon:hover, .email-icon:hover{
+.phone-icon, .email-icon{
+  height: 23px !important;
+}
+
+.phone-icon-link:hover, .email-icon-link:hover{
   transform: scale(1.2);
 }
 

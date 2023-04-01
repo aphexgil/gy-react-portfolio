@@ -11,10 +11,6 @@ function App() {
 
   return (
     <>
-      <head>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,600,1,200" />
-      </head>
       <div className="body">
         <Header setPage={setPage} currentPage={currentPage}/>
         <Main currentPage={currentPage}/>
