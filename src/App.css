@@ -16,7 +16,7 @@ a{
 }
 
 .about-wrapper{
-  margin-bottom: 64px;
+  height: max(77vh, 570px);
   padding-top: 5vh;
 }
 
@@ -91,6 +91,15 @@ h2 {
   border-radius: 100%;
 }
 
+@keyframes fadeIn {
+  0% {
+    filter: opacity(0%);
+  }
+  100% {
+    filter: opacity(100%);
+  }
+}
+
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-7%);
@@ -137,6 +146,10 @@ h2 {
 
 .slide-in-from-top{
   animation: .7s ease-out 0s 1 slideInFromTop;
+}
+
+.fade-in-delay{
+  animation: .7s ease-out 1s 1 fadeIn;
 }
 
 .bio{
@@ -433,6 +446,10 @@ h2 {
   }
   .bio{
     margin: 30px auto;
+  }
+  .about-wrapper{
+    height: auto;
+    margin-bottom: 37px;
   }
 
 }

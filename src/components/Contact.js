@@ -2,6 +2,7 @@ import '../App.css';
 import Container from 'react-bootstrap/Container';
 
 
+
 function Contact({contactSeen, setContactSeen}) {
     return (
         <>

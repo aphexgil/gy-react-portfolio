@@ -86,7 +86,7 @@ function Portfolio({portfolioSeen, setPortfolioSeen}) {
                 <div className="projects-container">
                     {data && data.map((project, i) => (
                         <div id={i} className="project-card" >
-                            <Image src={project.image} className="project-image slide-in-from-top"  style={project.loaded ? {} : { display: 'none' }} onLoad={() => project.setLoaded(true)}></Image>
+                            <Image src={project.image} className="project-image slide-in-from-top"  style={project.loaded ? {} : { display: 'block', backgroundColor: '#FFF' }} onLoad={() => project.setLoaded(true)}></Image>
                             <div className="overlay">
                                 <div className="overlay-text">
                                     <a href={project.link} target="_blank" className="project-title">{project.title}</a>
