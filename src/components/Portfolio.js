@@ -31,9 +31,9 @@ function Portfolio({portfolioSeen, setPortfolioSeen}) {
     const data = [
         {
             title: 'DBUG',
-            link: 'https://cswag-dbug.herokuapp.com/',
+            link: 'https://gy-dbug.herokuapp.com/',
             image: dbug,
-            repo: 'https://github.com/saramangelo/cswag-p3',
+            repo: 'https://github.com/aphexgil/gy-dbug',
             loaded: loaded1,
             setLoaded: setLoaded1
         },
