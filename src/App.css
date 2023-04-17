@@ -355,6 +355,10 @@ h2 {
   transition : transform 0.15s linear;
 }
 
+.project-title{
+  white-space: nowrap;
+}
+
 .phone-link, .email-link, .phone-icon-link, .email-icon-link, .project-title{
   width: auto;
   transition: .15s ease !important;
