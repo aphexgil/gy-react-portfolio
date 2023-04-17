@@ -512,19 +512,18 @@ h2 {
   .header-link.active::before{
     content : "> ";
   }
+}
+
+@media only screen and (max-width: 500px) {
   .bio{
-    width: 470px !important;
+    width: 90% !important;
   }
   .headshot-img{
-    width: 400px;
+    width: 90%;
   }
 }
 
 @media only screen and (max-width: 413px) {
-
-  .headshot-img{
-    width: 370px;
-  }
   .contact-wrapper, .resume-wrapper{
     height: 66vh;
   }
